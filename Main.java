@@ -39,5 +39,10 @@ public class Main
         game.recordPlay(0);     //Switches to red
         info = game.getScore();
         System.out.println(info);
+
+        //Game lions and tigers
+        Scoreboard match = new Scoreboard ("Lions", "Tigers");
+        info = match.getScore();
+        System.out.println(info);
     }
 }
